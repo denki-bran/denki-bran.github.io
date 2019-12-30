@@ -1,0 +1,18 @@
+{
+  "name": "crystalball2020",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass":"node-sass",
+    "css": "node-sass src/scss -o assets/css",
+    "css:watch": "npm run css && node-sass src/scss -wo assets/css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.0",
+    "sass": "^1.24.0"
+  }
+}
